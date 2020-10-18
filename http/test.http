@@ -1,0 +1,28 @@
+###
+POST http://localhost:8080/payment-service/pay
+Content-Type: application/json
+
+{
+  "amount":100,
+  "paymentMethod":"PhonePe"
+}
+
+###
+POST http://localhost:8080/payment-service/pay
+Content-Type: application/json
+
+{
+  "amount":100,
+  "paymentMethod":"Paytm"
+}
+
+
+###
+POST http://localhost:8080/payment-service/pay
+Content-Type: application/json
+
+{
+  "amount":100,
+  "paymentMethod":"AmazonPay"
+}
+
